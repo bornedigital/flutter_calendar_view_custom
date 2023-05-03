@@ -424,7 +424,7 @@ class WeekViewState<T extends Object?> extends State<WeekView<T>> {
                           timeLineOffset: widget.timeLineOffset,
                           timeLineWidth: _timeLineWidth,
                           verticalLineOffset: 0,
-                          showVerticalLine: true,
+                          showVerticalLine: false,
                           controller: controller,
                           hourHeight: _hourHeight,
                           scrollController: _scrollController,
